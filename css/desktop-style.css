@@ -3,6 +3,7 @@
     --secondary-color: #0084fd;
     --card-bg-color: #b5ddff;
     --text-color: #647a8d;
+    --border-radius: 30px;
 }
 
 body {
@@ -90,11 +91,12 @@ a {
 
 /* MAIN */
 
-/* Demo session */
+/* Demo section */
 
 #demo .card {
     color: var(--text-color);
     background-color: var(--card-bg-color);
+    border-radius: 15px;
 
       /* debug */
     height: 100px;
@@ -108,7 +110,7 @@ a {
     width: 50%;
 }
 
-/* Planning session */
+/* Planning section */
 
 session #planning {
     background-color: var(--primary-color);
@@ -128,8 +130,31 @@ session #planning {
 }
 
 #planning .card {
+    border-radius: var(--border-radius);
 
     /* debug */
     height: 400px;
     background-color: antiquewhite;
+}
+
+/* Testimonials section */
+
+
+
+#testimonials .card {
+    background-color: var(--primary-color);
+    margin: 15px 0;
+    border-radius: 10px;
+    border-radius: 30px;
+
+    /* debug */
+    height: 200px;
+}
+
+#testimonials .card.white {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
