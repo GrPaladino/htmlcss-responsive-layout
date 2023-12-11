@@ -66,6 +66,8 @@ li {
 
 a {
     color: inherit;
+    text-decoration: none;
+
 }
 
 /* HEADER */
@@ -77,17 +79,27 @@ a {
 #header > .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 15px;
+    color: white;
 }
 
-#header > .container * {
+#header li {
+    padding-left: 20px;
+}
 
-    /* debug */
-    background-color: var(--card-bg-color);
+#header li:last-child {
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    margin-left: 15px;
+    border-radius: var(--border-radius-small);
 }
 
 #header .button {
     display: none;
+    background-color: var(--secondary-color);
+    border: none;
 }
 
 /* MAIN */
