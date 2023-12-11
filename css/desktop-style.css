@@ -175,3 +175,23 @@ session #planning {
     /* debug */
     height: 400px;
 }
+
+/* About-us section */
+
+#about-us .container {
+    display: flex;
+}
+
+#about-us .card {
+
+    /* debug */
+    height: 400px;
+}
+
+#about-us .card-left {
+    width: 70%;
+}
+
+#about-us .card-right {
+    width: 30%;
+}

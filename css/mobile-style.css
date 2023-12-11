@@ -17,4 +17,14 @@
     #benefit .col-1-3 {
         width: 100%;
     }
+
+    /* About-us section */
+
+    #about-us .container {
+        display: block;
+    }
+
+    #about-us .card {
+        width: 100%;
+    }
 }
