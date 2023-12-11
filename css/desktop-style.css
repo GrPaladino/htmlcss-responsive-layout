@@ -84,3 +84,23 @@ a {
 #header .button {
     display: none;
 }
+
+/* MAIN */
+
+/* Demo session */
+
+#demo .card {
+    color: var(--text-color);
+    background-color: var(--card-bg-color);
+
+      /* debug */
+    height: 100px;
+}
+
+#demo .col-2-3 {
+    display: flex;
+}
+
+#demo .col-2-3 > .card {
+    width: 50%;
+}

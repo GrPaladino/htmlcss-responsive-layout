@@ -1,9 +1,24 @@
-@media screen and (max-width 768px) {
+@media screen and (max-width: 768px) {
+    
+    /* HEADER */
     #header .navbar {
         display: none;
     }
 
     #header .button {
         display: block;
+        
+    }
+
+     /* MAIN */
+
+    /* Demo session */
+
+    #demo .col-2-3 {
+        display: block;
+    }
+
+    #demo .col-2-3 > .card {
+        width: 100%;
     }
 }
