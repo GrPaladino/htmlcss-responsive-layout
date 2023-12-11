@@ -1,4 +1,12 @@
- /* RESET */
+:root {
+    --primary-color: #9792e4;
+    --secondary-color: #0084fd;
+    --card-bg-color: #b5ddff;
+    --text-color: #647a8d;
+}
+
+
+/* RESET */
 
 * {
     margin: 0;
@@ -55,4 +63,24 @@ a {
     color: inherit;
 }
 
+/* HEADER */
 
+#header {
+    background-color: var(--secondary-color);
+}
+
+#header > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#header > .container * {
+
+    /* debug */
+    background-color: var(--card-bg-color);
+}
+
+#header .button {
+    display: none;
+}
