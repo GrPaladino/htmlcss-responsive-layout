@@ -5,6 +5,9 @@
     --text-color: #647a8d;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* RESET */
 
@@ -103,4 +106,30 @@ a {
 
 #demo .col-2-3 > .card {
     width: 50%;
+}
+
+/* Planning session */
+
+session #planning {
+    background-color: var(--primary-color);
+
+}
+
+#planning .wrapper {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+
+#planning .col {
+
+    /* debug */
+    width: 25%;
+}
+
+#planning .card {
+
+    /* debug */
+    height: 400px;
+    background-color: antiquewhite;
 }

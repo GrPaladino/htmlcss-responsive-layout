@@ -21,4 +21,15 @@
     #demo .col-2-3 > .card {
         width: 100%;
     }
+
+    /* Planning session */
+
+    #planning .wrapper {
+        display: block;
+    }
+
+    #planning .col {
+        width: 100%;
+    }
 }
+
