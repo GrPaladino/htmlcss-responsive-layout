@@ -3,13 +3,17 @@
 /* Demo section */
 
 @media screen and (max-width: 480px) {
-    #demo .row {
+    #demo .col-2-3 .card {
         display: block;
     }
 
     .row .col-2-3,
     .row .col-1-3 {
         width: 100%;
+    }
+
+    #demo .card-image {
+        justify-content: center;
     }
 
     /* Benefit section */

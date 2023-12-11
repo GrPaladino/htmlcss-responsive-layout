@@ -111,16 +111,59 @@ a {
     background-color: var(--card-bg-color);
     border-radius: var(--border-radius-small);
 
+
       /* debug */
-    height: 100px;
+    min-height: 300px;
 }
 
-#demo .col-2-3 {
+#demo .col-2-3 .card {
     display: flex;
 }
 
-#demo .col-2-3 > .card {
+#demo .card-text,
+#demo .card-image {
     width: 50%;
+    padding: 15px;
+    line-height: 25px;
+}
+
+#demo .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#demo h3 {
+    color: var(--secondary-color);
+}
+
+#demo p {
+    padding: 15px 0;
+}
+
+#demo a {
+    max-width: 168px;
+    color: white;
+    padding: 10px 40px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    border-radius: var(--border-radius-small);
+    background-color: var(--secondary-color);
+}
+
+#demo .card-image {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 0;
+}
+
+#demo img {
+    max-width: 70%;
+}
+
+#demo .col-1-3 .card {
+    height: 100%;
 }
 
 /* Planning section */

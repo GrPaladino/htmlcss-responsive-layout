@@ -14,12 +14,17 @@
 
     /* Demo section */
 
-    #demo .col-2-3 {
+    #demo .col-2-3 .card {
         display: block;
     }
 
-    #demo .col-2-3 > .card {
+    #demo .col-2-3 .card-text,
+    #demo .col-2-3 .card-image {
         width: 100%;
+    }
+
+    #demo .card-image {
+        justify-content: left;
     }
 
     /* Planning section */
