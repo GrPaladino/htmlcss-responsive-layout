@@ -3,7 +3,8 @@
     --secondary-color: #0084fd;
     --card-bg-color: #b5ddff;
     --text-color: #647a8d;
-    --border-radius: 30px;
+    --border-radius-big: 30px;
+    --border-radius-small: 15px
 }
 
 body {
@@ -96,7 +97,7 @@ a {
 #demo .card {
     color: var(--text-color);
     background-color: var(--card-bg-color);
-    border-radius: 15px;
+    border-radius: var(--border-radius-small);
 
       /* debug */
     height: 100px;
@@ -130,7 +131,7 @@ session #planning {
 }
 
 #planning .card {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius-big);
 
     /* debug */
     height: 400px;
@@ -157,4 +158,20 @@ session #planning {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+/* Benefit section */
+
+#benefit {
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+#benefit .card {
+    background-color: white;
+    border-radius: var(--border-radius-small);
+
+    /* debug */
+    height: 400px;
 }

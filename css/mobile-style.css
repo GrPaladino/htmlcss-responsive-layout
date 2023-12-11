@@ -11,4 +11,10 @@
     .row .col-1-3 {
         width: 100%;
     }
+
+    /* Benefit section */
+
+    #benefit .col-1-3 {
+        width: 100%;
+    }
 }

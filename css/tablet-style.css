@@ -31,5 +31,11 @@
     #planning .col {
         width: 100%;
     }
+
+    /* Benefit section */
+
+    #benefit .col-1-3 {
+        width: 50%;
+    }
 }
 
