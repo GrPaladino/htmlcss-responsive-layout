@@ -195,3 +195,32 @@ session #planning {
 #about-us .card-right {
     width: 30%;
 }
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer .wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* Upper footer */
+
+#upper-footer {
+    background-color: var(--primary-color);
+
+    /* debug */
+    height: 300px;
+}
+
+#bottom-footer {
+    background-color: #333333;
+    
+
+    /* debug */
+    height: 200px;
+}
