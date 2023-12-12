@@ -104,7 +104,16 @@ li {
 a {
     color: inherit;
     text-decoration: none;
+}
 
+p {
+    font-size: .8rem;
+    padding: 15px 0;
+    line-height: 25px;
+}
+
+#demo p{
+    text-align: center;
 }
 
 /* HEADER */
@@ -172,13 +181,6 @@ a {
     color: var(--secondary-color);
 }
 
-#demo p,
-#testimonials p {
-    padding: 15px 0;
-    line-height: 25px;
-    text-align: center;
-}
-
 #demo .col-2-3 p {
     text-align: start;
 }
@@ -240,12 +242,6 @@ a {
     padding: 25px 0;
 }
 
-#planning p {
-    font-size: .8rem;
-    padding: 15px 0;
-    line-height: 25px;
-}
-
 #planning .col-right {
     align-self: flex-end;
 }
@@ -279,17 +275,11 @@ a {
 
 /* Testimonials section */
 
-
-
 #testimonials .card {
     background-color: var(--primary-color);
     margin: 15px 0;
     border-radius: var(--border-radius-big);
     color: white;
-}
-
-#testimonials p {
-    text-align: start;
 }
 
 #testimonials .card.white {
@@ -332,17 +322,45 @@ a {
 
 /* Benefit section */
 
-#benefit {
+#benefit h2 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
 #benefit .card {
     background-color: white;
+    color: var(--text-color);
+    padding: 25px;
     border-radius: var(--border-radius-small);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 
     /* debug */
-    height: 400px;
+    min-height: 400px;
 }
+
+#benefit span {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+#benefit h3 {
+    color: var(--primary-color);
+}
+
+#benefit button {
+    padding: 6px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: var(--border-radius-small);
+    border: none;
+    font-size: .7rem;
+}
+
 
 /* About-us section */
 
