@@ -13,8 +13,6 @@ body {
 
 main > section {
     padding: 3rem 0;
-    background-color: white;
-    color: var(--text-color);
 }
 
 main > section:nth-of-type(even) {
@@ -37,6 +35,19 @@ main > section:nth-of-type(even) {
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+#planning .container,
+#about-us .container {
+    max-width: 900px;
+    display: flex;
+    padding: 15px;
+}
+
+#get-started .container,
+#footer .container {
+    max-width: 480px;
+    margin: 0 auto;
 }
 
 .row {
@@ -220,8 +231,6 @@ p {
 
 
 #planning .container {
-    max-width: 900px;
-    display: flex;
     justify-content: center;
 }
 
@@ -283,6 +292,7 @@ p {
 }
 
 #testimonials .card.white {
+    color: var(--text-color);
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -293,6 +303,11 @@ p {
 #testimonials .card.white h2 {
     font-size: 2rem;
     color: var(--primary-color);
+    padding: 20px 0;
+}
+
+#testimonials .card.white span {
+    padding-top: 10px;
 }
 
 #testimonials .card.purple {
@@ -361,11 +376,6 @@ p {
 
 /* About-us section */
 
-#about-us .container {
-    max-width: 900px;
-    display: flex;
-}
-
 #about-us .card-left {
     padding-right: 100px;
 }
@@ -420,11 +430,6 @@ p {
     text-align: center;
 }
 
-#get-started .container {
-    max-width: 480px;
-    margin: 0 auto;
-}
-
 #get-started span {
     font-size: .8rem;
     color: var(--text-color);
@@ -460,12 +465,17 @@ p {
 
 /* FOOTER */
 
-footer {
+#footer {
     text-align: center;
     color: white;
     background-color: #333333;
-    
-    
-    /* debug */
-    height: 200px;
+}
+
+#footer p {
+    padding: 20px 0;
+}
+
+#footer span {
+    color: var(--primary-color);
+    text-decoration: underline;
 }

@@ -1,8 +1,9 @@
 /* MAIN */
 
-/* Demo section */
-
 @media screen and (max-width: 480px) {
+
+    /* Demo section */
+
     #demo .col-2-3 .card {
         display: block;
     }
@@ -21,10 +22,8 @@
     #testimonials .card.purple {
         flex-direction: column;
         align-items: center;
-
     }
     
-
     /* Benefit section */
 
     #benefit .col-1-3 {
