@@ -418,14 +418,44 @@ p {
 
 #get-started {
     text-align: center;
-
-     /* debug */
-    height: 300px;
 }
 
 #get-started .container {
     max-width: 480px;
     margin: 0 auto;
+}
+
+#get-started span {
+    font-size: .8rem;
+    color: var(--text-color);
+}
+
+#get-started h3 {
+    font-size: 1.8rem;
+    padding: 15px 0;
+}
+
+#get-started h2 {
+    font-size: 3rem;
+    color: #fdc159;
+}
+
+#get-started p {
+    font-size: .7rem;
+    padding: 10px 60px;
+}
+
+#get-started button {
+    padding: 15px 45px;
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: var(--border-radius-big);
+    border: none;
+    margin: 10px auto;
+}
+
+#get-started a {
+    text-decoration: underline;
 }
 
 /* FOOTER */
