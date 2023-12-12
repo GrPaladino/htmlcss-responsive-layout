@@ -16,6 +16,15 @@
         justify-content: center;
     }
 
+    /* Testimonials section */
+
+    #testimonials .card.purple {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+
     /* Benefit section */
 
     #benefit .col-1-3 {
